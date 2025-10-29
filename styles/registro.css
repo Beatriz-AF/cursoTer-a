@@ -1,0 +1,87 @@
+* {
+  border: none;
+  margin: 0; /* espaçamento externo */
+  padding: 0; /* espaçamento interno */
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+  --primary: #7B25AA;
+  --light-gray: #ECF0F1;
+  --dark-gray: #949E9F;
+}
+
+body{
+  background-color: var(--light-gray);
+  width: 700px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  padding: auto; 
+  margin: auto ;
+}
+
+.div-login {
+  background-color: #4C087F;
+  color: #fff;
+  padding: 10px;
+}
+
+.div-login > a {
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 16px;
+  width: 100%;
+  padding: 2px 4px;
+}
+
+.div-login > p {
+  margin-bottom: 10px;
+}
+
+.div-cadastro {
+  background-color: #fff;
+}
+
+.div-cadastro > h2 {
+  color: var(--primary);
+}
+
+.div-cadastro > p {
+  color: var(--dark-gray);
+}
+
+.form-registro > button {
+  margin: auto;
+    padding: 10px;
+    border-radius: 12px;
+    background-color: var(--primary);
+    color: white;
+    font-weight: bold;
+    border: 2px var(--primary);
+    text-align: center;
+    display: flex;
+}
+.form-registro > button:hover {
+    background-color: #61128c;
+    cursor: pointer;
+}
+.input-caixa {
+    border: 1px solid #c8c9c9;
+    background-color:#ecf0f1 ;
+    text-align: center;
+    display: flex;
+    margin: auto;
+    padding: 5px;
+    border-radius: 10px;
+}
+.icone {
+    border: 2px solid var(--primary);
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display:inline-flex;
+}
