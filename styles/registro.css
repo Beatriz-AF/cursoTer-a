@@ -25,7 +25,7 @@ body{
 }
 
 .div-login {
-  background-color: #4C087F;
+  background: linear-gradient(to bottom, #4C087F 20%, #aa2594 100%);
   color: #fff;
   padding: 10px;
 }
@@ -78,10 +78,18 @@ body{
     padding: 5px;
     border-radius: 10px;
 }
-.icone {
-    border: 2px solid var(--primary);
+.icone{
+    border: 1px solid var(--primary);
     border-radius: 50%;
     width: 25px;
     height: 25px;
     display:inline-flex;
+    align-items: center; 
+    justify-content: center;
+    margin-right: 5px;
+}
+.icone:hover {
+    background-color: var(--primary);
+    color: white;
+    cursor: pointer;
 }
